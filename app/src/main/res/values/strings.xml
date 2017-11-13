@@ -1,0 +1,5 @@
+<resources>
+    <string name="app_name">Facebook Viewer</string>
+    <string name="facebook_app_id">407454596302575</string>
+    <string name="fb_login_protocol_scheme">fb407454596302575</string>
+</resources>

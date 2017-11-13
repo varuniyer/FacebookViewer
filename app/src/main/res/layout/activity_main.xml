@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/constLay"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.varuniyer.facebookviewer.MainActivity">
+
+    <com.facebook.login.widget.LoginButton
+        android:id="@+id/login_button"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        tools:layout_constraintLeft_creator="1"
+        tools:layout_constraintRight_creator="1"
+        tools:layout_constraintTop_creator="1" />
+
+    <EditText
+        android:id="@+id/searchbox"
+        android:layout_width="0dp"
+        android:layout_height="60dp"
+        android:layout_marginEnd="8dp"
+        android:layout_marginLeft="8dp"
+        android:layout_marginRight="8dp"
+        android:layout_marginStart="8dp"
+        android:layout_marginTop="16dp"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        tools:layout_constraintLeft_creator="1"
+        tools:layout_constraintRight_creator="1"
+        tools:layout_constraintTop_creator="1" />
+
+    <ScrollView
+        android:id="@+id/scroll"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:layout_marginEnd="8dp"
+        android:layout_marginLeft="8dp"
+        android:layout_marginRight="8dp"
+        android:layout_marginStart="8dp"
+        android:layout_marginTop="16dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/searchbox"
+        tools:layout_constraintBottom_creator="1"
+        tools:layout_constraintLeft_creator="1"
+        tools:layout_constraintRight_creator="1"
+        tools:layout_constraintTop_creator="1">
+
+        <LinearLayout
+            android:id="@+id/linear_layout"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <!--<TextView
+                android:id="@+id/textView"
+                android:layout_width="0dp"
+                android:layout_height="495dp"
+                android:text="Every month, since I was only four years old, our family has a tradition of finding items in the house we don’t need and donating them to our local charity, the Salvation Army. Even as a family, we drove together and saw our items go away. Seeing them go away as we left, I felt gratified in knowing that someone who may be crying with no one to help them will soon have something to make them feel at least a little better.
+        Ever since then, I have been finding donatable items large and small in my house that are not absolutely essential to my daily life. This in part, stems from the Hindu ideal of giving back to the community. I periodically go to a temple not only to worship God, but to provide what our family can to the monks who spend their lives offering such an invaluable service to many. Every time I see a statue of a divine being and bow down to it, I recognize that my existence in this world itself is a privilege and that I owe it to the rest of the world, where in God’s holiness lies, to provide for those who struggle to progress in life on their own.
+        Based on these beliefs I was taught while being raised, I continue to try to volunteer in as many ways as I can. When I started volunteering over the summer at the Boys and Girls Club of America, I noticed that most of the children were familiar with computers but had never learned how they actually worked. Viewing this as a unique, educational opportunity, I decided to teach them how to code, a skill that would serve them well in the long run.
+        From this experience, I learned not only how to teach computer programming but how to connect with people of all ages. Success in this effort gave me the confidence to initiate programs like this in the future, enabling children from lower income backgrounds to not only have fun but to gain key skills that will help them better their lives.
+
+        "
+                tools:layout_editor_absoluteX="8dp"
+                tools:layout_editor_absoluteY="8dp"
+                android:layout_weight="1" />-->
+        </LinearLayout>
+    </ScrollView>
+
+</android.support.constraint.ConstraintLayout>
